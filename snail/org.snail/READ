@@ -1,0 +1,19 @@
+layout_widthPercent
+layout_heightPercent
+layout_marginPercent
+layout_marginLeftPercent
+layout_marginTopPercent
+layout_marginRightPercent
+layout_marginBottomPercent
+layout_marginStartPercent
+layout_marginEndPercent
+
+xmlns:app="http://schemas.android.com/apk/res-auto"
+
+添加百分比特定的参考值 如 50%w 50%h
+支持TextView 的textSize layout_textSizePercent
+对于外层套ScrollView的问题，
+目前可以在PercentLinearLayout的外层使用ScrollView，
+不过对于宽度的百分比参考的就是android.R.id.content的高度
+(因为，无法参考父控件的高度，父控件的高度理论上依赖于
+子View高度，且模式为UNSPECIFIED)。

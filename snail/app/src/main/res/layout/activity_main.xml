@@ -1,0 +1,142 @@
+<org.snail.percentlayout.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFEE00"
+        android:gravity="center"
+        android:text="@string/hello_world"
+        app:layout_heightPercent="20%"
+        app:layout_paddingPercent="0%"
+        app:layout_textSizePercent="4%h"
+        app:layout_widthPercent="50%" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="#00FFEE"
+        android:gravity="center"
+        android:text="@string/hello_world"
+        app:layout_heightPercent="50%"
+        app:layout_textSizePercent="5%h"
+        app:layout_widthPercent="20%" />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FF00EE"
+        android:gravity="center"
+        android:text="@string/hello_world"
+        android:textColor="#FFF"
+        app:layout_heightPercent="30%"
+        app:layout_marginLeftPercent="50%"
+        app:layout_textSizePercent="4%h"
+        app:layout_widthPercent="30%" />
+
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#EF0E0F"
+        android:gravity="center"
+        android:text="@string/hello_world"
+        android:textColor="#FFF"
+        app:layout_heightPercent="10%"
+        app:layout_marginTopPercent="20%"
+        app:layout_textSizePercent="4%h"
+        app:layout_widthPercent="50%" />
+
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0E0FEF"
+        android:gravity="center"
+        android:text="@string/hello_world"
+        android:textColor="#FFF"
+        app:layout_heightPercent="20%"
+        app:layout_marginTopPercent="30%"
+        app:layout_textSizePercent="4%h"
+        app:layout_widthPercent="80%" />
+
+    <TextView
+        android:id="@+id/txt6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="#0E0FEF"
+        android:gravity="center"
+        android:text="@string/hello_world"
+        android:textColor="#FFF"
+        app:layout_heightPercent="20%"
+        app:layout_marginTopPercent="50%"
+        app:layout_textSizePercent="4%h"
+        app:layout_widthPercent="80%" />
+
+
+    <TextView
+        android:id="@+id/txt7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="#EF0E0F"
+        android:gravity="center"
+        android:text="@string/hello_world"
+        android:textColor="#FFF"
+        app:layout_heightPercent="10%"
+        app:layout_marginBottomPercent="20%"
+        app:layout_marginTopPercent="20%"
+        app:layout_textSizePercent="4%h"
+        app:layout_widthPercent="50%" />
+
+    <TextView
+        android:id="@+id/txt8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#FF00EE"
+        android:gravity="center"
+        android:text="@string/hello_world"
+        android:textColor="#FFF"
+        app:layout_heightPercent="30%"
+        app:layout_marginLeftPercent="20%"
+        app:layout_textSizePercent="4%h"
+        app:layout_widthPercent="30%" />
+
+
+    <TextView
+        android:id="@+id/txt9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#00FFEE"
+        android:gravity="center"
+        android:text="@string/hello_world"
+        app:layout_heightPercent="50%"
+        app:layout_textSizePercent="5%h"
+        app:layout_widthPercent="20%" />
+
+    <TextView
+        android:id="@+id/txt10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="#FFEE00"
+        android:gravity="center"
+        android:text="@string/hello_world"
+        app:layout_heightPercent="20%"
+        app:layout_textSizePercent="4%h"
+        app:layout_widthPercent="50%" />
+
+</org.snail.percentlayout.PercentRelativeLayout>
