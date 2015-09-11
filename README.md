@@ -1,14 +1,28 @@
 Android 第三方架包功能:
+
     百分比库：比Android中权重更加好用
+    
     注解配置:优化findViewById、setContentView、onClick  使APK变得更小
+    
     注解使用:
+        
+        在Activity中的onCreate()使用ViewInjectUtils.inject(this);或者定义一个BaseActivity其他的Activity继承他在
+        BaseActivity的onCreate()中使用ViewInjectUtils.inject(this);
+    
+    
         在类上面
+        
             @ContentView(R.layout.activity_main) 表示引入布局
+            
             和onCreate中setContentView(R.layout.activity_main)一样
+            
         在声明的控件上面
+        
             @ViewInject(R.id.txt1)
             和findViewById(R.id.txt1);一样
+            
         在某个onClick(View v)方法上面
+        
             @OnClick({R.id.txt1,R.id.txt2,...})表示注册监听事件
 
 
