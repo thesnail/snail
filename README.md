@@ -6,8 +6,8 @@ Android 第三方架包功能:
     
     注解使用:
         
-        在Activity中的onCreate()使用ViewInjectUtils.inject(this);或者定义一个BaseActivity其他的Activity继承他在
-        BaseActivity的onCreate()中使用ViewInjectUtils.inject(this);
+        在Activity中的onCreate()使用ViewInjectUtils.inject(this);或者定义一个BaseActivity
+        其他的Activity继承他在BaseActivity的onCreate()中使用ViewInjectUtils.inject(this);
     
     
         在类上面
